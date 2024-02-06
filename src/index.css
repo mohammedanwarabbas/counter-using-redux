@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar-brand {
+  font-family: 'Protest Revolution', sans-serif;
+  font-size: 2.5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-link{
+  font-family: 'Kanit', sans-serif;
+}
+
+.counter-circle {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  background-color: #007bff; /* Example background color */
+  border-radius: 50%; /* Makes the div circular */
+}
+
+.counter-control-button {
+  /* Base button styles */
+  padding: 10px 20px;
+  background-color: #464b52;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Styles for when the button is hovered over */
+.counter-control-button:hover {
+  background-color: #1b1d1f;
+}
+
+/* Styles for when the button is clicked */
+.counter-control-button:active {
+  transform: scale(0.95); /* Scale down the button to give a pressed effect */
+}
+
+@media (max-width:768px){
+  .navbar-brand {
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 1.5rem;
+  }
 }
